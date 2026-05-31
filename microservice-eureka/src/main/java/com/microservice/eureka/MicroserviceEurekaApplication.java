@@ -12,3 +12,4 @@ public class MicroserviceEurekaApplication {
 		SpringApplication.run(MicroserviceEurekaApplication.class, args);
 	}
 }
+
