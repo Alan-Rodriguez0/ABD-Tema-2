@@ -98,4 +98,3 @@ class StudentIntegrationTest {
                 .andExpect(status().isNoContent());
     }
 }
-
