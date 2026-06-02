@@ -1,0 +1,16 @@
+2026-06-01 23:59:55 INFO  [main] c.m.c.i.CourseIntegrationTest - Starting CourseIntegrationTest using Java 17.0.17 with PID 10676 (started by Eduardo in C:\Users\Eduardo\IdeaProjects\Microservicios\microservice-course)
+2026-06-01 23:59:55 INFO  [main] c.m.c.i.CourseIntegrationTest - The following 1 profile is active: "test"
+2026-06-01 23:59:55 WARN  [main] o.s.c.c.c.ConfigServerConfigDataLoader - Could not locate PropertySource ([ConfigServerConfigDataResource@44b194fe uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/msvc-course/default": Connection refused: getsockopt
+2026-06-01 23:59:55 WARN  [main] o.s.c.c.c.ConfigServerConfigDataLoader - Could not locate PropertySource ([ConfigServerConfigDataResource@70c53dbe uris = array<String>['http://localhost:8888'], optional = true, profiles = 'test']): I/O error on GET request for "http://localhost:8888/msvc-course/test": Connection refused: getsockopt
+2026-06-01 23:59:55 WARN  [main] o.s.c.c.c.ConfigServerConfigDataLoader - Could not locate PropertySource ([ConfigServerConfigDataResource@1894e40d uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/msvc-course/default": Connection refused: getsockopt
+2026-06-02 00:00:04 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-02 00:00:06 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-02 00:00:08 WARN  [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-06-02 00:00:09 INFO  [main] c.m.c.i.CourseIntegrationTest - Started CourseIntegrationTest in 16.857 seconds (process running for 31.132)
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Intentando eliminar curso con ID: 6
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Curso eliminado correctamente con ID: 6
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Consultando todos los cursos
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Buscando curso con ID: 8
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Curso encontrado: Redes
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Guardando nuevo curso: Microservicios
+2026-06-02 00:00:10 INFO  [main] c.m.course.service.CourseServiceImpl - Curso guardado correctamente
